@@ -96,3 +96,17 @@
 //     if (i % 2 !== 0) console.log(i);
 //     i++; 
 //  } while (i <= 5);
+
+// infinite loops
+
+// while (true) {
+
+// }
+// let x = 0;
+// do {
+// // x++;
+// } while (x < 5);
+
+
+// for (let i = 0; i > 0; i++); 
+// for (let i = 0; i < 0; ); 
