@@ -45,17 +45,54 @@
 // }
 
 
-for (let i = 1; i <= 5; i++) {
-    if (i % 2 !== 0) console.log(i);
+// for (let i = 1; i <= 5; i++) {
+//     if (i % 2 !== 0) console.log(i);
     
- }
+//  }
 
- for (let i = 5; i >= 1; i--) {
-    if (i % 2 !== 0) console.log(i);
+//  for (let i = 5; i >= 1; i--) {
+//     if (i % 2 !== 0) console.log(i);
     
- }
-console.log('reverse number----------------')
- for (let i = 50; i >= 1; i--) {
-    if (i % 2 !== 0) console.log(i);
+//  }
+// console.log('reverse number----------------')
+//  for (let i = 5; i >= 1; i--) {
+//     if (i % 2 !== 0) console.log(i);
     
- }
+//  }
+
+ // while ---------
+//  let x = 0;
+//  while (x <= 10) {
+//     if (x % 2 !== 0) console.log(x);
+//     x++; 
+//  }
+
+//  let i = 5;
+//  while (i >= 1) {
+//      console.log(i);
+//      i--;
+//  }
+
+//https://hackernoon.com/javascript-practical-coding-challenges-for-beginners-4bq3ugr 
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+     
+//  }
+
+ // do-while loop 
+// do while always executed even it's condition evaluated to false
+
+//  let x = 9;
+//  while (x <= 5) {
+//     if (x % 2 !== 0) console.log(x);
+//     x++; 
+//  }
+// hear we changed the x to 9 and condition goes false  and no output 
+
+
+//  let i = 9;
+//  do {
+//     if (i % 2 !== 0) console.log(i);
+//     i++; 
+//  } while (i <= 5);
