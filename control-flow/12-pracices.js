@@ -112,16 +112,16 @@
 // for (let i = 0; i < 0; ); 
 
 // for-in 
-const person = {
-    name: 'Mosh',
-    age: 30,
-    wife: 'marta'
-};
+// const person = {
+//     name: 'Mosh',
+//     age: 30,
+//     wife: 'marta'
+// };
 // key is string and can be anything 
-for (let key in person)
+// for (let key in person)
 //    console.log(key, person.key); it get undefined because the key is not defined in person object
 
-   console.log(key, person[key]);
+//    console.log(key, person[key]);
 
 
    // reminder 
@@ -139,3 +139,11 @@ for (let key in person)
 
 // for (let index in colors)
 //     console.log(index, colors[index]);
+
+// for-of : 
+// to iterate the elements or items in array
+
+
+const colors = ['red', 'green', 'blue', 'pink'];
+for (let color of colors)
+console.log(color);
