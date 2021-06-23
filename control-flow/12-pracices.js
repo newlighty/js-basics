@@ -144,6 +144,34 @@
 // to iterate the elements or items in array
 
 
-const colors = ['red', 'green', 'blue', 'pink'];
-for (let color of colors)
-console.log(color);
+// const colors = ['red', 'green', 'blue', 'pink'];
+// for (let color of colors)
+// console.log(color);
+
+// break
+
+// let i = 0;
+// while (i <= 10) {
+//    if (i === 5) break;
+//    i++;
+// }
+// console.log(i);
+
+// with break we jump out of loop
+
+// continue
+// this is not used in modern js6 just for reference as to know if seen in others old code
+
+// let i = 0;
+// while (i <= 10) {
+// if(i % 2 === 0) {
+//    i++;
+//    continue;
+// }
+// console.log(i);
+// i++;
+// }
+ 
+// with continue jump to next iteration
+
+
