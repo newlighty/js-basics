@@ -110,3 +110,32 @@
 
 // for (let i = 0; i > 0; i++); 
 // for (let i = 0; i < 0; ); 
+
+// for-in 
+const person = {
+    name: 'Mosh',
+    age: 30,
+    wife: 'marta'
+};
+// key is string and can be anything 
+for (let key in person)
+//    console.log(key, person.key); it get undefined because the key is not defined in person object
+
+   console.log(key, person[key]);
+
+
+   // reminder 
+   // Dot Notation 
+//    person.name;
+
+// Bracket Notation it used when the value of the key above maybe different in run time 
+// person['name'];
+
+// we use for in to iterate the property of object
+
+// do it with array not common way also
+
+// const colors = ['red', 'green', 'blue'];
+
+// for (let index in colors)
+//     console.log(index, colors[index]);
