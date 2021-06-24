@@ -174,4 +174,27 @@
  
 // with continue jump to next iteration
 
+// -----------------------------exercise 1- max--
+// get the max number in the out put
+//    const number a = max(5, 10);
+   
+
+// console.log(a , b);
+let number  = max(5, 10);
+console.log(number);
+function max(a, b) {
+   return (a > b) ? a : b;
+
+}
+
+//for line condition it cleaner to write like this 
+// if (a > b) return a; 
+// else return b;
+
+//  if (a > b) return a;
+//    return b;
+
+// and finally the cleanest form :
+// return (a > b) ? a : b;
+
 
