@@ -180,12 +180,12 @@
    
 
 // console.log(a , b);
-let number  = max(5, 10);
-console.log(number);
-function max(a, b) {
-   return (a > b) ? a : b;
+// let number  = max(5, 10);
+// console.log(number);
+// function max(a, b) {
+//    return (a > b) ? a : b;
 
-}
+// }
 
 //for line condition it cleaner to write like this 
 // if (a > b) return a; 
@@ -196,5 +196,13 @@ function max(a, b) {
 
 // and finally the cleanest form :
 // return (a > b) ? a : b;
+
+/////////////challenge-2 ---- landscape of portrait
+console.log(isLandscape(800, 600));
+
+function isLandscape(width, height) {
+return (width > height) ; // we use this instead of if else or ternary operation; because we just need true or false
+}
+
 
 
