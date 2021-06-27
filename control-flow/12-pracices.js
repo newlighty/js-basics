@@ -232,23 +232,58 @@
 //     return input;
 // }
 
+// the word is not matter algorithm does
+//  const output = faramarzBayat(15);
+//  console.log(output);
 
- const output = faramarzBayat(15);
- console.log(output);
-
-function faramarzBayat(input) {
-   if (typeof input !== 'number')
-   return NaN;
+// function faramarzBayat(input) {
+//    if (typeof input !== 'number')
+//    return NaN;
   
-  if ((input % 3 === 0) && (input % 5 === 0))
-     return 'faramarzBayat';
+//   if ((input % 3 === 0) && (input % 5 === 0))
+//      return 'faramarzBayat';
 
-    if (input % 3=== 0)
-    return 'faramarz';
+//     if (input % 3=== 0)
+//     return 'faramarz';
 
-    if (input % 5 === 0)
-     return 'Bayat';
-}
+//     if (input % 5 === 0)
+//      return 'Bayat';
+// }
+
+///////////// exercise 4  Demerit Point ------>
+
+// speed Limit = 70 
+// 5 -> 1 point 
+// math.floor(1.3)
+ 
+checkSpeed(130);
+
+function checkSpeed(speed) {
+   const speedLimit = (70);
+   const kmPerPoint = 5;
+// make code cleaner
+//    if(speed <= speedLimit + kmPerPoint) 
+//    console.log('Ok');
+// else {
+//   const points = Math.floor((speed - speedLimit) / kmPerPoint);
+//   if (points >= 12)
+//   console.log('License suspended');
+//   else
+//   console.log('points', points);
+// }
+
+//cleaned code--->
+// if(speed <= speedLimit + kmPerPoint) {
+//    console.log('Ok');
+//    return;
+// }
+// const points = Math.floor((speed - speedLimit) / kmPerPoint);
+// if (points >= 12)
+// console.log('License suspended');
+// else
+// console.log('points', points);
+// }
+
 
 
 
