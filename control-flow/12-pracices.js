@@ -256,11 +256,11 @@
 // 5 -> 1 point 
 // math.floor(1.3)
  
-checkSpeed(130);
+// checkSpeed(130);
 
-function checkSpeed(speed) {
-   const speedLimit = (70);
-   const kmPerPoint = 5;
+// function checkSpeed(speed) {
+//    const speedLimit = (70);
+//    const kmPerPoint = 5;
 // make code cleaner
 //    if(speed <= speedLimit + kmPerPoint) 
 //    console.log('Ok');
@@ -283,6 +283,23 @@ function checkSpeed(speed) {
 // else
 // console.log('points', points);
 // }
+///////////// exercise 5 Even and odd Numbers
+showNumber(10);
+
+function showNumber(limit) {
+   for (let i = 0; i <= limit ; i++) {
+   //   if (i % 2 === 0) console.log(i, 'even');
+   //    else (i, 'odd');
+
+   // cleaner code 
+   const message = (i % 2 === 0) ? 'EVEN' : 'Odd' ;
+   console.log(i, message);
+   }
+}
+
+
+
+
 
 
 
