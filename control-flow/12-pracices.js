@@ -316,22 +316,42 @@
 
 ///////////// exercise 7 String Properties.
 
-const movie = {
-   title: 'a',
-   releaseYear: 2018,
-   rating: 4.5,
-   director: 'b'
-};
+// const movie = {
+//    title: 'a',
+//    releaseYear: 2018,
+//    rating: 4.5,
+//    director: 'b'
+// };
 
-showProperties(movie);
+// showProperties(movie);
 
-function showProperties(obj) {
- for (let key in obj)
-if (typeof obj[key] === 'string') // hear we ask to give us string but if yon change it to 'number' ..
- console.log(key, obj[key]);
+// function showProperties(obj) {
+//  for (let key in obj)
+// if (typeof obj[key] === 'string') // hear we ask to give us string but if yon change it to 'number' ..
+//  console.log(key, obj[key]);
  
-}
+// }
+// 
 
+///////////// exercise  8 sum of multiples of 3 and 5 
+// console.log(sum(10));
 
+// function sum(limit) {
+//   let sum = 0;
 
+//   for (let i = 0; i <= limit; i++)
+//     if (i % 3 === 0 || i % 5 === 0)
+//       sum += i;
 
+//   return sum; 
+// }
+
+// this has nothing to do with practice just show me the result of loop that the sum of te number is amount of sum 33
+// const limit = 10;
+// let sum = 0;
+// for (let i = 0; i <= limit; i++)
+//     if (i % 3 === 0 || i % 5 === 0)
+//     console.log(i);
+    
+
+   
