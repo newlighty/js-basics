@@ -60,7 +60,7 @@
     
 //  }
 
- // while ---------
+ // while ---------------------/////////-------->
 //  let x = 0;
 //  while (x <= 10) {
 //     if (x % 2 !== 0) console.log(x);
@@ -80,7 +80,8 @@
      
 //  }
 
- // do-while loop 
+ // do-while loop ----------------------///////////////////----------->
+
 // do while always executed even it's condition evaluated to false
 
 //  let x = 9;
@@ -97,7 +98,7 @@
 //     i++; 
 //  } while (i <= 5);
 
-// infinite loops
+// infinite loops------------------/////////////--------->
 
 // while (true) {
 
@@ -111,7 +112,8 @@
 // for (let i = 0; i > 0; i++); 
 // for (let i = 0; i < 0; ); 
 
-// for-in 
+// for-in   ---------------------///////////------------>
+
 // const person = {
 //     name: 'Mosh',
 //     age: 30,
@@ -140,7 +142,8 @@
 // for (let index in colors)
 //     console.log(index, colors[index]);
 
-// for-of : 
+// for-of : ----------------------->
+
 // to iterate the elements or items in array
 
 
@@ -284,34 +287,50 @@
 // console.log('points', points);
 // }
 ///////////// exercise 5 Even and odd Numbers
-showNumber(10);
+// showNumber(10);
 
-function showNumber(limit) {
-   for (let i = 0; i <= limit ; i++) {
-   //   if (i % 2 === 0) console.log(i, 'even');
-   //    else (i, 'odd');
+// function showNumber(limit) {
+//    for (let i = 0; i <= limit ; i++) {
+//    //   if (i % 2 === 0) console.log(i, 'even');
+//    //    else (i, 'odd');
 
-   // cleaner code 
-   const message = (i % 2 === 0) ? 'EVEN' : 'Odd' ;
-   console.log(i, message);
-   }
+//    // cleaner code 
+//    const message = (i % 2 === 0) ? 'EVEN' : 'Odd' ;
+//    console.log(i, message);
+//    }
+// }
+
+
+// ///////////// exercise 6 count Truthy.
+
+// const array = [1, 2 ,3];
+// console.log(countTruthy(array));
+
+// function countTruthy(array) {
+//    let count = 0;
+//    for (let value of array) 
+//    if (value)
+//    count++;
+//    return count;
+// }
+
+///////////// exercise 7 String Properties.
+
+const movie = {
+   title: 'a',
+   releaseYear: 2018,
+   rating: 4.5,
+   director: 'b'
+};
+
+showProperties(movie);
+
+function showProperties(obj) {
+ for (let key in obj)
+if (typeof obj[key] === 'string') // hear we ask to give us string but if yon change it to 'number' ..
+ console.log(key, obj[key]);
+ 
 }
-
-
-///////////// exercise 6 count Truthy.
-
-const array = [1, 2 ,3];
-console.log(countTruthy(array));
-
-function countTruthy(array) {
-   let count = 0;
-   for (let value of array) 
-   if (value)
-   count++;
-   return count;
-}
-
-
 
 
 
