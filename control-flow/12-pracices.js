@@ -383,15 +383,64 @@
 
 ///////////// exercise 10 Stars 
 
-showStarts(18);
+// showStarts(18);
 
-function showStarts(rows) {
-   for (let row = 1; row <= rows; row++) {
-      let pattern = '';
-      for (let i = 0; i < row; i++)
-         pattern += '*';
-      console.log(pattern);
-   }
+// function showStarts(rows) {
+//    for (let row = 1; row <= rows; row++) {
+//       let pattern = '';
+//       for (let i = 0; i < row; i++)
+//          pattern += '*';
+//       console.log(pattern);
+//    }
+// }
+
+///////////// exercise 11 prime Numbers
+
+
+// عدد اول
+//prime (whose factors are only 1 and itself composite)
+// prime (whose factors are only 1 and itself) so it can not divided evenly i another number
+
+// 12 = 1, 2, 3, 4, 6, 12
+// can be divided evenly by its factors
+
+// Composite اعداد مرکب
+// 11 = 1, 11
+// 13 = 1, 13
+// showPrimes(10);
+
+// function showPrimes(limit){
+//    for(let number = 2; number <= limit; number++) {
+
+//       let isPrime = true;
+//       //find the factor of number
+//       for (let factor = 2; factor < number; factor++) {
+//         if (number % factor === 0) {
+//             isPrime = false;
+//             break;
+//         }
+       
+//       }
+//       if (isPrime) console.log(number);
+//    }
+// }
+
+// same code but very cleaner----//\\-----
+showPrimes(10);
+
+function showPrimes(limit){
+   for(let number = 2; number <= limit; number++) 
+      if (isPrime(number)) console.log(number);
+   
 }
 
-   
+
+
+function isPrime (number){
+  
+   for (let factor = 2; factor < number; factor++) 
+      if (number % factor === 0) 
+       return false;
+ return true;
+}
+// if (isPrime) console.log(number);
